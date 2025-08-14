@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --white-color: #dadada;
+  --black-color: #1f1f1f;
+  --primary-color: #3088ed;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
