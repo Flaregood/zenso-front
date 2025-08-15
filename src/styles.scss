@@ -3,6 +3,8 @@
   --white-color: #dadada;
   --black-color: #1f1f1f;
   --primary-color: #3088ed;
+  --yellow-color: #f9c74f;
+  --yellow-dark-color: #f9844a;
 }
 
 html {
@@ -15,4 +17,12 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
 }
